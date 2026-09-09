@@ -1,0 +1,73 @@
+body{
+    margin:0;
+    font-family: Arial,sans-serif;
+    color: #333;
+}
+
+.topo{
+background-color: #e52421;
+color:#ffffff;
+align-items: center;
+display: flex;
+gap:20px ;
+}
+
+.topotexto{
+text-align: center;
+}
+
+.topo img{
+    width: 25%;
+max-width: 160px;
+height: auto;
+}
+
+.secao{
+    background-color: #fff;
+    margin: 16px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.secao h2{
+    color: #2c3e50;
+}
+.secao ul{
+    list-style: none;
+
+}
+
+.rodape{
+    text-align: center;
+    font-size: 14px;
+    color:#555
+}
+.preco{
+font-width: bold;
+color: #e74c3c;
+}
+.destaque{
+    background-color: #e52421; ;
+}
+
+.butaum{
+    color: #ffffff;
+    display: block;
+    margin: 0 auto;
+    background-color: #25D366;
+    width: 290px;
+    height: 60px;
+    display: flex;
+    gap: 20px
+}
+
+.butaum p{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 7px;
+}
+.butaum img{
+    width: 24px;
+    height: 24px;
+    padding-top: 10px;
+}
