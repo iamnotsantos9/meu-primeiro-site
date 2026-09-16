@@ -9,11 +9,13 @@ background-color: #e52421;
 color:#ffffff;
 align-items: center;
 display: flex;
-gap:20px ;
+gap: 17px;
 }
 
 .topotexto{
 text-align: center;
+width: 70%;
+margin-top: 20px;
 }
 
 .topo img{
@@ -37,6 +39,7 @@ height: auto;
 
 }
 
+
 .rodape{
     text-align: center;
     font-size: 14px;
@@ -47,8 +50,27 @@ font-width: bold;
 color: #e74c3c;
 }
 .destaque{
-    background-color: #e52421; ;
+    background-color: #e52421; 
 }
+
+.cardapio-titulo{
+    text-align: center;
+}
+
+.container-cardapio-lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-item{
+    border: 1px solid #ddd;
+    margin: 60px;
+    height: 300px;
+    background-color: #c49744;
+}
+
+
+
 
 .butaum{
     color: #ffffff;
