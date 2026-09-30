@@ -8,14 +8,14 @@ body{
 background-color: #e52421;
 color:#ffffff;
 align-items: center;
+justify-content: space-between;
 display: flex;
 gap: 17px;
 }
 
 .topotexto{
-text-align: center;
-width: 70%;
-margin-top: 20px;
+margin-left: 20px;
+gap: 20px;
 }
 
 .topo img{
@@ -23,6 +23,19 @@ margin-top: 20px;
 max-width: 160px;
 height: auto;
 }
+
+.opcoes-inicio{
+  display: flex;
+  text-decoration: none;
+text-align: center;
+}
+
+.botoes1{
+  display: flex;
+  text-decoration: none;
+text-align: center;
+}
+
 
 .secao{
     background-color: #fff;
